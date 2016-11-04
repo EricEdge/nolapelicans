@@ -1,0 +1,90 @@
+<HTML>
+	<head>
+        <meta charset="utf-8">
+		<title>Pelicans de La N-O</title>
+		<link rel="icon" href="http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/nop.png">
+	</head>
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<body>
+			<style>
+				@font-face
+						{
+						font-family: GearedSlab;
+						src: url(font.woff);
+						}
+				body	{
+						background-color: #b5985a;
+                        overflow: hidden;
+						}
+				.imglogo
+						{
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+						height: 256px;
+						width: 256px;
+						margin-top: -55px;                                          
+						}
+				.w3-sidenav 
+						{
+						background-color: #e51937 !important
+						}
+				.navtext
+						{
+						color: white;
+                        font-family: GearedSlab;
+						}
+                .navtext2
+                        {
+                        color: #002a5c;
+                        font-size: 30px;
+                        font-family: GearedSlab;
+                        }
+                h1		{
+						text-align: center;
+						font-family: GearedSlab;
+						color: #002a5c;
+						}
+                h3		{
+						text-align: center;
+						font-family: GearedSlab;
+						color: #002a5c;	                        
+						}
+                .imgjersey
+                        {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: -55px;
+                        }
+			</style>
+			
+		<nav class="w3-sidenav w3-white w3-card-2" style="display:none" id="mySidenav">
+			<a class="navtext2" href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-large">Fermer &times;</a>
+			<a class="navtext" href="Accueil.html">Accueil</a>
+			<a class="navtext" href="#">À propos</a>
+			<a class="navtext" href="http://www.nba.com/pelicans/roster/" target="_blank">Joueurs</a>
+			<a class="navtext" href="http://www.nba.com/pelicans/schedule/" target="_blank">Record et Horaire</a>
+		</nav>
+		<header class="w3-container w3-#e51937">
+			<span class="w3-opennav w3-xlarge" onclick="w3_open()">&#9776;</span>
+		</header>
+		<script>
+			function w3_open() {
+				document.getElementById("mySidenav").style.display = "block";
+				}
+			function w3_close() {
+				document.getElementById("mySidenav").style.display = "none";
+				}
+		</script>
+        <a target="_blank" href="https://en.wikipedia.org/wiki/New_Orleans_Pelicans#NBA_All-Star_selections"><img class="imglogo" src="http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/nop.png"></a>
+        
+        <h1>Un peu au sujet des Pélicans </h1>
+        
+        <h3>Les Pélicans de La Nouvelle-Orléans sont une équipe de basket dans la ligue NBA.</h3>
+        <h3>Ils participent à la conférence de l'Ouest.</h3>
+        <h3>Les Pélicans jouaient sous les Hornets jusqu'aux années 2012-13.</h3>
+        <h3>Pour plus d'information, appuyez sur le logo ci-dessus pour être.</h3>
+        <img class="imgjersey" src="jersey.png">
+	</body>
+</HTML>
